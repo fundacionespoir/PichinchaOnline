@@ -69,7 +69,8 @@ const LibreriaConstantes = {
     // ejecucion de procesos
     EJECUTORLOG: 'exec interfaz.sp_ws_insertar_transacciones',
     EJECUTACONSULTA: 'exec Interfaz.sp_ws_pichincha_consulta_credito',
-    EJECUTAPAGO: 'exec Interfaz.sp_ws_pichincha_pago'
+    EJECUTAPAGO: 'exec Interfaz.sp_ws_pichincha_pago',
+    PRUEBARAMA: 'prueba de commit desde rama DEV a PRINCIPAL'
 }
 
 module.exports= {
