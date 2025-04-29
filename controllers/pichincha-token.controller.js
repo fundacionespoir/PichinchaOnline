@@ -42,6 +42,7 @@ const tokenPost = async (req = request, res = response) => {
     if (result[0].codigo_respuesta === '104'){
         let filtrado = dbError.filter(id => id.idSec === '104');
         let auxiliar = JSON.stringify(filtrado).slice(11, -16);
+        console.log('comentario de variable auxiliar: ', auxiliar)
         return res.status(401).json(JSON.parse(auxiliar))        
     }
 
